@@ -70,7 +70,7 @@
   </scm>
 
   <properties>
-    <fabric8.maven.plugin.version>3.5.1</fabric8.maven.plugin.version>
+    <fabric8.maven.plugin.version>3.5.31</fabric8.maven.plugin.version>
     <jenkins.version>v15751c8</jenkins.version>
     <maven.enforcer.plugin.version>1.4</maven.enforcer.plugin.version>
     <maven.javadoc.plugin.version>2.10.3</maven.javadoc.plugin.version>
