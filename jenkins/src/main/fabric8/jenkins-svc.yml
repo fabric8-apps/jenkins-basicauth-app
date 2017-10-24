@@ -6,7 +6,6 @@ metadata:
     expose: "true"
   annotations:
     fabric8.io/app-menu: development
-  name: "jenkins-test"
 spec:
   ports:
   - name: "http"
