@@ -22,15 +22,15 @@
 
   <parent>
     <groupId>io.fabric8.apps</groupId>
-    <artifactId>jenkins-test-app</artifactId>
+    <artifactId>jenkins-basicauth-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   
   <artifactId>jenkins</artifactId>
 
-  <name>Fabric8 Apps :: Jenkins Test Project</name>
+  <name>Fabric8 Apps :: Jenkins Basic Auth Project</name>
   <description>
-    App used in CI pipelines when testing Jenkins
+    Kubernetes Jenkins app with basic auth
   </description>
 
   <build>

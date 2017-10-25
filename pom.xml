@@ -25,11 +25,11 @@
   </parent>
 
   <groupId>io.fabric8.apps</groupId>
-  <artifactId>jenkins-test-app</artifactId>
+  <artifactId>jenkins-basicauth-app</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>Fabric8 Apps :: Jenkins Test Parent</name>
+  <name>Fabric8 Apps :: Jenkins Basic Auth Parent</name>
 
   <url>https://fabric8.io/</url>
   <inceptionYear>2017</inceptionYear>
@@ -63,10 +63,10 @@
   </developers>
 
   <scm>
-    <connection>scm:git:git@github.com:fabric8-apps/jenkins-app.git</connection>
-    <developerConnection>scm:git:git@github.com:fabric8-apps/jenkins-app.git</developerConnection>
-    <url>http://github.com/fabric8-apps/jenkins-app</url>
-    <tag>jenkin-app-1.0.0</tag>
+    <connection>scm:git:git@github.com:fabric8-apps/jenkins-basicauth-app.git</connection>
+    <developerConnection>scm:git:git@github.com:fabric8-apps/jenkins-basicauth-app.git</developerConnection>
+    <url>http://github.com/fabric8-apps/jenkins-basicauth-app</url>
+    <tag>jenkin-basicauth-app-1.0.0</tag>
   </scm>
 
   <properties>

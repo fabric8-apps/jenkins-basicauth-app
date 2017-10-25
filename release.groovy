@@ -1,7 +1,7 @@
 #!/usr/bin/groovy
 def stage(){
   return stageProject{
-    project = 'fabric8-apps/jenkins-test-app'
+    project = 'fabric8-apps/jenkins-basicauth-app'
     useGitTagForNextVersion = true
   }
 }
@@ -23,7 +23,7 @@ def release(project){
     helmPush = false
     groupId = 'io.fabric8.apps'
     githubOrganisation = 'fabric8-apps'
-    artifactIdToWatchInCentral = 'jenkins-test-app'
+    artifactIdToWatchInCentral = 'jenkins-basicauth-app'
     artifactExtensionToWatchInCentral = 'pom'
     promoteToDockerRegistry = 'docker.io'
     dockerOrganisation = 'fabric8'

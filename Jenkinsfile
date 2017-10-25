@@ -11,7 +11,7 @@ releaseNode {
     mavenCI{}
 
   } else if (utils.isCD()) {
-    sh "git remote set-url origin git@github.com:fabric8-apps/jenkins-test-app.git"
+    sh "git remote set-url origin git@github.com:fabric8-apps/jenkins-basicauth-app.git"
 
     def pipeline = load 'release.groovy'
     def stagedProject

@@ -1,1 +1,1 @@
-# jenkins-test-app
+# jenkins-basicauth-app
