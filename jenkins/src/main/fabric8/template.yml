@@ -2,3 +2,4 @@ kind: Template
 parameters:
 - name: RECOMMENDER_API_TOKEN
 - name: TEST_ADMIN_PASSWORD
+- name: EXTERNAL_DOCKER_REGISTRY_URL
